@@ -27,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
         } else {
             double amount = Double.parseDouble(editText.getText().toString());
             if (checked) {
-                textView.setText(String.format("%.2f", amount / 3.38) + " EUR");
+                textView.setText(String.format("%.2f", amount / 3.30) + " EUR");
             } else if (checked2){
-                textView.setText(String.format("%.2f", amount * 3.38) + " TND");
+                textView.setText(String.format("%.2f", amount * 3.30) + " TND");
             } else {
                 textView.setText("Please select a currency");
             }
